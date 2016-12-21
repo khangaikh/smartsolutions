@@ -20,7 +20,7 @@
 
     if(isset($_GET['products'])){
         $template = $twig->loadTemplate('products.html');
-        echo $template->render(array('title' => 'Products', 'nav' => 2));
+        echo $template->render(array('title' => 'Products', 'nav' => 3));
         return;
     }
     if(isset($_GET['about'])){
@@ -35,7 +35,12 @@
     }
     if(isset($_GET['detail'])){
         $template = $twig->loadTemplate('detail.html');
-        echo $template->render(array('title' => 'Contact Us', 'nav' => 2));
+        echo $template->render(array('title' => 'Detail', 'nav' => 3));
+        return;
+    }
+    if(isset($_GET['solution'])){
+        $template = $twig->loadTemplate('solutions.html');
+        echo $template->render(array('title' => 'Solutions', 'nav' => 2));
         return;
     }
     if(isset($_GET['help'])){

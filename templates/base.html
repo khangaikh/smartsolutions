@@ -57,59 +57,45 @@
                             <li {% if nav == 1 %}class="active"{%endif%}>
                                 <a href="index.php">Нүүр</a>
                             </li>
-                            <li>
-                                <a href="solutions.html" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Шийдэл</a>
+                            <li {% if nav == 2 %}class="active"{%endif%}>
+                                <a href="index.php?solution" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Шийдэл</a>
                                 <ul>
                                     <li>
-                                        <a href="#">Нэвтрэх хяналтын систем</a>
+                                        <a href="index.php?solution">Нэвтрэх хяналтын систем</a>
                                     </li>
                                     <li>
-                                        <a href="#">Хяналтын камерын систем</a>
+                                        <a href="index.php?solution">Хяналтын камерын систем</a>
                                     </li>
                                     <li>
-                                        <a href="#">Зөөврийн терминалын систем </a>
+                                        <a href="index.php?solution">Зөөврийн терминалын систем </a>
                                     </li>
                                     <li>
-                                        <a href="#">Цахим картын систем</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Танай байгууллагад зориулсан шийдэл</a>
+                                        <a href="index.php?solution">Цахим картын систем</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li {% if nav == 2 %}class="active"{%endif%}>
+                            <li {% if nav == 3 %}class="active"{%endif%}>
                                 <a href="index.php?products" >Бүтээгдэхүүн</a>
                             </li>
-                            <li {% if nav == 3 %}class="active"{%endif%}>
+                            <li {% if nav == 4 %}class="active"{%endif%}>
                                 <a href="#" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Мэдээлэл</a>
                                 <ul>
                                     <li>
                                         <a href="index.php?about">Бидний тухай</a>
                                     </li>
                                     <li>
-                                        <a href="#">Гүйцэтгэсэн төслүүд</a>
-                                    </li>
-                                    <li>
                                         <a href="#">Албан ёсны дисрибутор</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="#" class="site-nav-sub"><i class="fa fa-angle-down site-nav-arrow"></i>Сервис</a>
-                                <ul>
-                                    <li>
-                                        <a href="helpdesk.html">Түгээмэл асуулт хариулт</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Файлын сан</a>
-                                    </li>
-                                </ul>
+                            <li {% if nav == 5 %}class="active"{%endif%}>
+                                <a href="index.php?help">FAQ </a>
                             </li>
                             <li {% if nav == 6 %}class="active"{%endif%}>
                                 <a href="index.php?contact">Холбоо барих</a>
                             </li>
                             <li>
-                                <a href="login.html" class="btn btn-primary">Нэвтрэх</a>
+                                <a href="http://crm.alchemist.mn/demo" class="btn btn-primary">Нэвтрэх</a>
                             </li>
                         </ul>
                         <!-- END Main Menu -->
