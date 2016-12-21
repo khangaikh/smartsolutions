@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+{% block content %}<!-- Intro -->
+    <section class="site-section site-section-light site-section-top themed-background-dark" style="height:300px">
+        <div class="container">
+            <h1 class="text-center animation-slideDown"><i class="fa fa-shopping-cart"></i> <strong>Та юу сонирхож байна вэ?</strong></h1>
+            <div class="site-block text-center col-md-8 col-md-offset-2">
+                <a href="http://goo.gl/TDOSuC" class="btn  btn-primary"><i class="fa fa-check"></i> Хурууний хээгээр хаалга онгойгох</a>
+                <a href="http://goo.gl/TDOSuC" class="btn  btn-primary"><i class="fa fa-check"></i> Цаг бүртгэх</a>
+                <a href="http://pixelcave.com/demo/proui" class="btn btn-primary"><i class="fa fa-check"></i> RFID карт уншигч </a>
+                <a href="http://pixelcave.com/demo/proui" class="btn btn-primary"><i class="fa fa-check"></i> Картан дээр хэвлэлт хийлгэх </a>
+                <a href="http://pixelcave.com/demo/proui" class="btn btn-primary"><i class="fa fa-check"></i> Картан дээр хэвлэлт хийлгэх </a>
+                <a href="http://pixelcave.com/demo/proui" class="btn btn-primary"><i class="fa fa-check"></i> Соронзон цойж </a>
+                <a href="http://pixelcave.com/demo/proui" class="btn btn-success"><i class="fa fa-check"></i> IP камер </a>
+            </div>
+        </div>
+    </section>
+    <!-- END Intro -->
+
+    <!-- Product List -->
+    <section class="site-content site-section">
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-md-4 col-lg-3">
+                    <aside class="sidebar site-block">
+                        <!-- Store Menu -->
+                        <!-- Store Menu functionality is initialized in js/app.js -->
+                        <div class="input-group">
+                            <input id="ecom-search" name="ecom-search" class="form-control" placeholder="Хайх үгээ бичнэ үү.." type="text">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="sidebar-block">
+                            <ul class="store-menu">
+                                <li class="open">
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Хуруу нүүр уншигч</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Nitgen </a></li>
+                                    </ul>
+                                </li>
+                                <li class="open">
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Зөөврийн терминал</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">M3 Mobile </a></li>
+                                    </ul>
+                                </li>
+                                <li class="open">
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Хяналтын камер</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Lilin</a></li>
+                                        <li><a href="javascript:void(0)">Tattile </a></li>
+                                    </ul>
+                                </li>
+                                <li class="open"> 
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Цахим карт </a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Карт хэвлэгч</a></li>
+                                        <li><a href="javascript:void(0)">Карт уншигч </a></li>
+                                    </ul>
+                                </li>
+                                <li class="open"> 
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Хаалга</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Cmolo</a></li>
+                                    </ul>
+                                </li>
+                                <li class="open"> 
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Цойж</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">3dutech</a></li>
+                                    </ul>
+                                </li>
+                                <li class="open"> 
+                                    <a href="javascript:void(0)" class="submenu"><i class="fa fa-angle-right"></i> Долгион дарагч</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Tangreat</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- END Store Menu -->
+
+                        <!-- Shopping Cart -->
+                        <!--    <div class="sidebar-block">
+                            <div class="row">
+                                <div class="col-xs-6 push-bit">
+                                    <span class="h3">$ 750<br><small><em>3 Items</em></small></span>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="ecom_shopping_cart.html" class="btn btn-sm btn-block btn-success">VIEW CART</a>
+                                    <a href="ecom_checkout.html" class="btn btn-sm btn-block btn-danger">CHECKOUT</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Shopping Cart -->
+                    </aside>
+                </div>
+                <!-- END Sidebar -->
+                <!-- Products -->
+                <div class="col-md-8 col-lg-9">
+
+                    <div class="row store-items">
+                        <div class="col-md-12 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a href="ecom_product.html">
+                                        <img src="img/products/cmolo1.jpg" alt="" class="img-responsive">
+                                    </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <br />
+                                        <a href="index.php?detail"><h3><strong>Ухаалаг хяналтын хаалга IPW-AB1000</strong></h3></a><br>
+                                        <small><a href="javascript:void(0)" class="text-muted">CMOLO</a></small><br>
+                                        <small><a href="javascript:void(0)" class="text-muted">National High-Tech Enterprise which focusing on manufacturing turnstiles. It is the first and only brand that set up the professional turnstile laboratory in China</a><br><br>
+                                        ▌The world’s first original intelligent unattended guard gate, thoroughly realize unattended operation and prevent tail-gating.<br>
+                                        ▌Unique patented algorithm (pedestrian/cyclist shared passageway).<br>
+                                        ▌All-weather and multi-condition application, significantly lower the cost of property management.</small>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/tattilevegahd.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>Vega HD</strong></a><br>
+                                    <small><a href="javascript:void(0)" class="text-muted">TATTILE</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/tattile1.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>ANPR Mobile</strong></a><br>
+                                    <small> <a href="javascript:void(0)" class="text-muted">TATTILE</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/tattile2.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>Vega HD 2</strong></a><br>
+                                    <small><a href="javascript:void(0)" class="text-muted">TATTILE</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/nitgen1.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>NAC-5000</strong></a><br>
+                                    <small></i> <a href="javascript:void(0)" class="text-muted">NITGEN</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/nitgen2.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>enBioAccess N9</strong></a><br>
+                                    <small> <a href="javascript:void(0)" class="text-muted">NITGEN</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3   visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/nisca1.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>Nisca PRC201</strong></a><br>
+                                    <small><a href="javascript:void(0)" class="text-muted">NISCA</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3   visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/lilin1.png" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>L Series IP Camera</strong></a><br>
+                                    <small><a href="javascript:void(0)" class="text-muted">LiLin</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3   visibility-none" data-toggle="animation-appear" data-animation-class="animation-fadeInQuick" data-element-offset="-100">
+                            <div class="store-item">
+                                <div class="store-item-image">
+                                    <a href="ecom_product.html">
+                                        <img src="img/products/tangreat1.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="store-item-info clearfix">
+                                    <a href="ecom_product.html"><strong>Signal Jammer</strong></a><br>
+                                    <small><a href="javascript:void(0)" class="text-muted">Tangreat</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Products -->
+            </div>
+        </div>
+    </section>
+    <!-- END Product List -->
+
+    <!-- Sign Up Action -->
+    <section class="site-content site-section site-section-light themed-background-dark-night">
+        <div class="container">
+            <h3 class="site-heading text-center"><strong>Биднээс мэдээл</strong> хүлээн авах уу ?</h3>
+            <div class="site-block text-center">
+                <form action="features.html" method="post" class="form-horizontal" onsubmit="return false;">
+                    <div class="form-group">
+                        <div class="col-md-6 col-md-offset-3">
+                            <label class="sr-only" for="register-email">Цахим шуудангаа оруулах</label>
+                            <div class="input-group input-group-lg">
+                                <input type="email" id="register-email" name="register-email" class="form-control" placeholder="Таны цахим шуудан..">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Бүртгүүлэх</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- END Sign Up Action -->
+{% endblock %}
+{% block scripting %}
+    {{parent()}}
+{% endblock %}
